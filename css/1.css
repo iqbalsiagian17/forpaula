@@ -1,0 +1,30 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #wrapper h1 {
+    font-size: 5em;
+    animation: changeText 3s linear forwards;
+  }
+  
+  @keyframes changeText {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      content: "Happy Birthday";
+    }
+  }
+  
+
+  body {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+  }
